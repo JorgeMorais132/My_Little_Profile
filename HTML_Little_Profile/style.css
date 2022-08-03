@@ -1,0 +1,94 @@
+#title {
+
+text-align: center;
+
+}
+#title:hover{
+
+    font-size: 261%;
+    
+    }
+
+
+.textBio:hover{
+    
+font-size: 101%;
+}
+
+
+
+.textHiddenGrow:hover{
+    
+    font-size: 173%;
+}
+
+.mail:hover{
+
+    font-size: 250%;
+}
+
+
+
+
+
+#titleimage{
+    
+
+    border-radius: 50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 500px;
+}
+#titleimage:hover {
+    
+	height: 650px;
+    width: 650px;
+}
+
+
+
+#social{
+    position: relative;
+  
+    text-align: center;
+}
+
+#hobbies{
+    display: table;
+    margin: 0 auto;
+}
+
+.options{
+
+    display: table;
+margin: 0 auto;
+font-size: 170%;
+font-family: "Times New Roman", Times, serif;
+
+    
+  
+}
+
+.frontText{
+    font-size: 250%;
+font-family: "Times New Roman", Times, serif;
+}
+
+
+
+hr{
+   
+    height: 1px;
+    
+    background-color: rgb(134, 30, 189);
+
+    opacity: 15%;
+}
+
+
+
+.hidden {
+    visibility: hidden;
+}

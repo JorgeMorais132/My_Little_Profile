@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" />
+
+  <script src="https://code.jquery.com/jquery-latest.js"></script>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+  <script src="script.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+  </script>
+
+  <title>Jorge Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <style>
+    body {
+      background-image: url('fundo.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+
+    }
+  </style>
+
+
+
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-sm-6 col-lg-12">
+
+        <div>
+          <h1 id="title">I'm Jorge!</h1>
+          <br />
+
+        </div>
+
+       
+
+          <img id="titleimage" src="jorge.jpg" alt="Jorge photo" width="400" height="400">
+
+
+         
+      </div>
+
+
+      <div class="col-sm-6 col-lg-12">
+
+        <div class="frontText">
+
+          
+
+          
+         <div class="textBio"> My name is Jorge Morais, I was born in 2001 in <a  href="https://en.wikipedia.org/wiki/Azores"  target="_blank">
+          Azores  </a>!!
+          <p></p></div>
+         <div class="textBio">I grew up in São Jorge and from a very young age I worked with my father, he is a farmer.<p></p></div> 
+         <div class="textBio">From an early age I understood that life can be very hard and hard work isn't always the solution, we need to</div>
+         <div class="textBio">be smart and adaptive!! <p></p></div> 
+         <div class="textBio">I love to travel and have visited several countries.<p></p></div> 
+         <div class="textBio">Right now I'm trying to become a full-stack developer!</div> 
+
+          <hr>
+        </div>
+        
+      </div>
+
+
+
+
+
+
+
+
+
+      <div class="col-sm-6 col-lg-12">
+        <div class="options">
+          <h3><strong>Want to know more about me?</strong> </h3>
+          <p></p>
+          <ol>
+            <li> <a href="#" onclick="toggleClass('softSkills')"> <button>Soft Skills</button></a> </li>
+            <li> <a href="#" onclick="toggleClass('hobbies')"><button>Hobbies</button></a></li>
+            <li> <a href="#" onclick="toggleClass('social')"><button>My Links</button></a> </li>
+          </ol>
+
+
+        </div>
+
+
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <div id="social" class="hidden">
+
+
+
+          <h3 class="textHiddenGrow"><strong>My links:</strong> </h3>
+          <p></p>
+          <a href="http://www.instagram.com/jorgemorais132/" target="_blank">
+            <h3 class="textHiddenGrow">Instagram! <i class="fa-brands fa-instagram"></i></h3> </a>
+          </p></p>
+
+          <p></p>
+          <a href="https://github.com/JorgeMorais132" target="_blank">
+            <h3 class="textHiddenGrow">Github! <i class="fa-brands fa-github"></i> </h3>
+          </a>
+          </p>
+          </p>
+          <p></p>
+          <a href="https://www.linkedin.com/in/jorge-morais-7a7a3a185/" target="_blank">
+            <h3 class="textHiddenGrow">Linkedin! <i class="fa-brands fa-linkedin"></i></h3>
+          </a>
+          </p></p>
+          <p></p>
+          <a href="https://lichess.org/@/JorgeMorais13714/" target="_blank">
+            <h3 class="textHiddenGrow">Lichess! <i class="fa-regular fa-chess-knight"></i></h3> </a>
+          </p></p>
+          <p></p>
+          <a href="https://www.chess.com/member/jorgemorais13714" target="_blank">
+            <h3 class="textHiddenGrow">Chess.com! <i class="fa-solid fa-chess-pawn"></i></h3> </a>
+          </p></p>
+
+        </div>
+
+      </div>
+
+
+
+
+
+      <div class="col-sm-6 col-lg-4">
+        <div id="hobbies" class="hidden">
+          <p>
+          <h3 class="textHiddenGrow"><strong>Hobbies:</strong></h3>
+          </p>
+
+          <ol>
+            <li>
+              <h3 class="textHiddenGrow">Travel <i class="fa-solid fa-plane"></i></h3>
+            </li>
+            <li>
+              <h3 class="textHiddenGrow">Chess <i class="fa-solid fa-chess"></i></h3>
+            </li>
+
+            <li >
+              <h3 class="textHiddenGrow">Have a good conversation <i class="fa-solid fa-comments"></i></h3>
+            </li>
+          </ol>
+
+          </p>
+        </div>
+      </div>
+
+
+      <div class="col-sm-6 col-lg-4">
+        <div id="softSkills" class="hidden">
+          <p>
+          <h3 class="textHiddenGrow"><strong>Soft Skills:</strong></h3>
+          </p>
+
+          <ol>
+            <li>
+              <h3 class="textHiddenGrow">Adaptability <i class="fa-brands fa-suse"></i></h3>
+            </li>
+            <li>
+              <h3 class="textHiddenGrow">Integrity <i class="fa-solid fa-cube"></i></h3>
+            </li>
+            <li>
+              <h3 class="textHiddenGrow">Critical Thinking <i class="fa-solid fa-brain"></i></h3>
+            </li>
+            <li>
+              <h3 class="textHiddenGrow">Problem Solving <i class="fa-solid fa-sitemap"></i></h3>
+            </li>
+            <li>
+              <h3 class="textHiddenGrow">Open-mindedness <i class="fa-solid fa-people-arrows-left-right"></i></h3>
+            </li>
+            <li>
+              <h3 class="textHiddenGrow">Willingness to Learn <i class="fa-solid fa-chalkboard-user"></i></h3>
+            </li>
+          </ol>
+
+          </p>
+
+
+
+          </p>
+          </p>
+
+
+
+
+        </div>
+
+      </div>
+
+
+      
+
+
+
+
+
+
+
+      <div class="col-sm-6 col-lg-12">
+        <hr>
+        <h4  class="mail">Contacts: jorgemorais132@hotmail.com</h4>
+      
+
+
+    </div>
+
+      
+
+    </div>
+   
+  </div>
+  </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
